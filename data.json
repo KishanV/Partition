@@ -1,0 +1,40 @@
+{
+  "name": "data",
+  "children": [
+    {
+      "name": "Animals", 
+      "children": [
+        {
+          "name": "Mammals",     
+          "children": [
+            {"name": "Bear",              "size": 0.2}, 
+            {"name": "Whale",             "size": 0.2}, 
+            {"name": "Reindeer",          "size": 0.2}
+          ]
+        },
+        {
+          "name": "Insects",
+          "children": [
+            {"name": "Mosquito",          "size": 0.2},
+            {"name": "Butterfly",         "size": 0.2}
+          ]
+        } 
+      ]
+    },
+    {
+      "name": "Plants", 
+      "children": [
+        {"name": "Trees",                 "size": 0.5},
+        {"name": "Flowers",               "size": 0.5}
+      ]
+    },
+    {
+      "name": "Robots", 
+      "children": [
+        {"name": "Bender",                "size": 0.333},
+        {"name": "Terminator",            "size": 0.333},
+        {"name": "Wall-e",                "size": 0.333}
+      ]
+    }
+  ]
+}
